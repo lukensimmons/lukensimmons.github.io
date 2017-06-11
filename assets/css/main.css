@@ -163,9 +163,9 @@
 		width: 100%;
 	}
 
-/* BG */
+/* BG1 */
 
-	#bg {
+	#bg1 {
 		-moz-animation: bg 60s linear infinite;
 		-webkit-animation: bg 60s linear infinite;
 		-ms-animation: bg 60s linear infinite;
@@ -178,15 +178,138 @@
 		-webkit-transform: translate3d(0,0,0);
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
-	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: url("images/bg-1-trees.png") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
 		opacity: 1;
 		position: fixed;
 		top: 0;
+	}
+
+	#bg1 {
+		background-size: 960px auto;
+		width: 2880px;
+	}
+
+/* BG2 */
+
+	#bg2 {
+		-moz-animation: bg 90s linear infinite;
+		-webkit-animation: bg 90s linear infinite;
+		-ms-animation: bg 90s linear infinite;
+		animation: bg 90s linear infinite;
+		-moz-backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-moz-transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+
+		background: url("images/bg-2-trees.png") bottom left;
+		background-repeat: repeat-x;
+		height: 100%;
+		left: 0;
+		opacity: 1;
+		position: fixed;
+		top: 0;
+	}
+
+	#bg2 {
+		background-size: 960px auto;
+		width: 2880px;
+	}
+
+/* BG3 */
+
+	#bg3 {
+		-moz-animation: bg 120s linear infinite;
+		-webkit-animation: bg 120s linear infinite;
+		-ms-animation: bg 120s linear infinite;
+		animation: bg 120s linear infinite;
+		-moz-backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-moz-transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+
+		background: url("images/bg-3-trees.png") bottom left;
+		background-repeat: repeat-x;
+		height: 100%;
+		left: 0;
+		opacity: 1;
+		position: fixed;
+		top: 0;
+	}
+
+	#bg3 {
+		background-size: 960px auto;
+		width: 2880px;
+	}
+
+/* BG4 */
+
+	#bg4 {
+		-moz-animation: bg 150s linear infinite;
+		-webkit-animation: bg 150s linear infinite;
+		-ms-animation: bg 150s linear infinite;
+		animation: bg 150s linear infinite;
+		-moz-backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-moz-transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+
+		background: url("images/bg-4-mountain.png") bottom left;
+		background-repeat: repeat-x;
+		height: 100%;
+		left: 0;
+		opacity: 1;
+		position: fixed;
+		top: 0;
+	}
+
+	#bg4 {
+		background-size: 960px auto;
+		width: 2880px;
+	}
+
+/* BG5 */
+
+	#bg5 {
+		-moz-animation: bg 300s linear infinite;
+		-webkit-animation: bg 300s linear infinite;
+		-ms-animation: bg 300s linear infinite;
+		animation: bg 300s linear infinite;
+		-moz-backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-moz-transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+		background: url("images/bg-5-clouds.png") bottom left;
+		background-repeat: repeat-x;
+		height: 100%;
+		left: 0;
+		opacity: 1;
+		position: fixed;
+		top: 0;
+	}
+
+	#bg5 {
+		background-size: 1920px auto;
+		width: 2880px;
 	}
 
 	@-moz-keyframes bg {
@@ -253,10 +376,21 @@
 		}
 	}
 
-	#bg {
-		background-size: 2250px auto;
-		width: 6750px;
-	}
+    #bg {
+		height: 300%;
+		left: 0;
+		opacity: 1;
+		position: fixed;
+		top: 0;
+        background: #cfc3c3;
+        background: -moz-linear-gradient(top, #335eac 0%, #cfc3c3 50%, #eff0dd 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, #335eac), color-stop(50%, #cfc3c3), color-stop(100%, #eff0dd));
+        background: -webkit-linear-gradient(top, #335eac 0%, #cfc3c3 50%,   #eff0dd 100%);
+        background: -o-linear-gradient(top, #335eac 0%, #cfc3c3 50%, #eff0dd 100%);
+        background: -ms-linear-gradient(top, #335eac 0%, #cfc3c3 50%, #eff0dd 100%);
+        background: linear-gradient(to bottom, #335eac 0%, #cfc3c3 50%, #eff0dd 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#335eac', endColorstr='#eff0dd', GradientType=0 );
+    }
 
 /* Overlay */
 
@@ -306,7 +440,7 @@
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
-		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
+		background-image: url("images/overlay-pattern.png");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -666,10 +800,10 @@
 /* Footer */
 
 	#footer {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+		background-image: -moz-linear-gradient(top, rgba(53,66,136,0), rgba(53,66,136,1) 75%);
+		background-image: -webkit-linear-gradient(top, rgba(53,66,136,0), rgba(53,66,136,1) 75%);
+		background-image: -ms-linear-gradient(top, rgba(53,66,136,0), rgba(53,66,136,1) 75%);
+		background-image: linear-gradient(top, rgba(53,66,136,0), rgba(53,66,136,1) 75%);
 		bottom: 0;
 		cursor: default;
 		height: 6em;
