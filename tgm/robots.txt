@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.htm
+Disallow: /cgi-bin/
+Disallow: /css/
+Disallow: /js/
+Disallow: /dev/
+Disallow: /mail/
+Disallow: /vendor/
+Disallow: /topgunmultimedia.com.au/
+Sitemap: http://topgunmultimedia.com/sitemap.xml
